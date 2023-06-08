@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import News from './components/News';
 import Navbar from './components/Navbar';
 import LoadingBar from 'react-top-loading-bar'
 import { useState } from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
